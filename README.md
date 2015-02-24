@@ -1,14 +1,14 @@
 # auto-loginer
-
+======
 This project is to develop a automatic loginer for Newman College internet. The program checks internet connection status by accessing Newman's intranet login page every 5 seconds, and try to login if the internet is not connected.
 
 If your computer cannot reach to Newman's intranet login site for any reason, the program will be stopped and exited. You need to restart the program once you have connection to Newman network.
 
-#Installation
+##Installation
 Downalod auto-loginer.py file into your local computer in Newman network.
 You also need Python to run this program.
 
-#How to run the program
+##How to run the program
 Open Terminal or any command line prompt which can execute python program, and use the following command:
 	python auto-loginer.py
 
