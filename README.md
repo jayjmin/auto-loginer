@@ -4,13 +4,13 @@ This project is to develop a automatic loginer for Newman College internet. The 
 
 If your computer cannot reach to Newman's intranet login site for any reason, the program will be stopped and exited. You need to restart the program once you have connection to Newman network.
 
-#Usage 1 (ID/PW not saved)
-	python auto-loginer.py <ID>
+#Installation
+Downalod auto-loginer.py file into your local computer in Newman network.
+You also need Python to run this program.
 
-This will prompt to input PASSWORD. The ID and PASSWORD provided will NOT be saved in any form. This is the most secure method as it does not save password. However, you should provide password every time whenever you run the program.
-
-#Usage 2 (Save and load from file)
+#How to run the program
+Open Terminal or any command line prompt which can execute python program, and use the following command:
 	python auto-loginer.py
 
-This will prompt to ask ID and PASSWORD for the first time, and save them to the local file named 'login.info' in encoded format. From the second time, it simply reads the saved file and uses them to log in. (WARNING: although the information is saved in encoded format, it is not secure. Please use it at your own risk, or use the first method which does not store any information.)
+This will prompt you to input ID and PASSWORD for the first time, and whether you want to save them to the local file named 'login.info' in encoded format. If the save file exists, it simply reads the file and uses them to log in. (WARNING: although the information is saved in encoded format, it is not secure. Please use it at your own risk, otherwise do not save the information.)
 
