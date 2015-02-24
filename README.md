@@ -4,7 +4,7 @@ This project is to develop a automatic loginer for Newman College internet. The 
 If your computer cannot reach to Newman's intranet login site for any reason, the program will be stopped and exited. You need to restart the program once you have connection to Newman network.
 
 ##Installation
-Downalod auto-loginer.py file into your local computer in Newman network.
+Downalod [auto-loginer.py file](https://github.com/fogony/auto-loginer/archive/v0.1.zip) into your local computer in Newman network.
 You also need Python to run this program.
 
 ##How to run the program
