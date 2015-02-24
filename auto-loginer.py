@@ -123,6 +123,8 @@ class AutoLoginer():
                     login_counter = -1
                     for i in range(3):
                         if self.login():
+                            #time.sleep(1)
+                            #self.login()
                             login_counter = 1
                             break
                         print "Login Failed. Attempts: %d / 3" %(i+1)
